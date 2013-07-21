@@ -23,7 +23,6 @@ dump.rdb
 /public/assets/*
 
 config/database.yml
-config/redis.yml
 config/discourse.pill
 config/environments/production.rb
 
@@ -56,6 +55,7 @@ sublime-project.sublime-workspace
 *~
 *.swp
 *.swo
+*.sw[a-Z]
 
 # don't check in multisite config
 config/multisite.yml
