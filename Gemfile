@@ -108,6 +108,7 @@ gem 'sass'
 gem 'seed-fu'
 gem 'sidekiq'
 gem 'sidekiq-failures'
+gem 'autoscaler', require: false
 gem 'sinatra', require: nil
 gem 'slim'  # required for sidekiq-web
 gem 'therubyracer', require: 'v8'
