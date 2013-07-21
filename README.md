@@ -28,7 +28,7 @@ If you're looking to install Discourse in a production environment checkout the 
 
 We think of Discourse as a **Civilized Discourse Construction Kit**, an open-source discussion platform that acts as a free, flexible, fundamental building block for online communities of any size, tiny to huge.
 
-Discourse is: 
+Discourse is:
 
 - A **flattened, endlessly scrolling discussion**, which avoids the awkwardness of traditionally threaded and paginated discussion, while still allowing replies to be expanded in place for context.
 
@@ -117,3 +117,4 @@ Discourse logo and “Discourse Forum” ®, Civilized Discourse Construction Ki
 ## Dedication
 
 Discourse is built with [love, Internet style.](http://www.youtube.com/watch?v=Xe1TZaElTAs)
+
