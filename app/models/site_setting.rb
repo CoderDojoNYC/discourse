@@ -69,7 +69,7 @@ class SiteSetting < ActiveRecord::Base
 
   # used mainly for dev, force hostname for Discourse.base_url
   # You would usually use multisite for this
-  setting(:force_hostname, '')
+  setting(:force_hostname, ENV['HOSTNAME'] ? ENV['HOSTNAME'] : '')
   setting(:port, Rails.env.development? ? 3000 : '')
   setting(:enable_private_messages, true)
   setting(:use_ssl, false)
