@@ -1,6 +1,5 @@
 sidekiq_redis = { url: $redis.url, namespace: 'sidekiq' }
 
-<<<<<<< HEAD
 if Rails.env.production?
 
   require 'autoscaler/sidekiq'
