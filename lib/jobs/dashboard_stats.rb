@@ -1,5 +1,6 @@
 module Jobs
-  class DashboardStats < Jobs::Base
+  class DashboardStats < Jobs::Scheduled
+    recurrence { hourly.minute_of_hour(0,30) }
 
     def execute(args)
       stats_json = AdminDashboardData.fetch_stats.as_json

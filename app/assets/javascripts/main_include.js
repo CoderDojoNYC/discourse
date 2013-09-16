@@ -15,6 +15,7 @@
 //= require_tree ./discourse/mixins
 //= require ./discourse/components/computed
 //= require ./discourse/views/view
+//= require ./discourse/views/container_view
 //= require ./discourse/components/debounce
 //= require ./discourse/models/model
 //= require ./discourse/models/user_action
@@ -28,6 +29,8 @@
 //= require ./discourse/routes/discourse_route
 //= require ./discourse/routes/discourse_restricted_user_route
 
+//= require ./discourse/dialects/dialect
+//= require_tree ./discourse/dialects
 //= require_tree ./discourse/controllers
 //= require_tree ./discourse/components
 //= require_tree ./discourse/models
